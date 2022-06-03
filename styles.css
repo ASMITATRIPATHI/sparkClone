@@ -1,33 +1,35 @@
 *{
     overflow-x: hidden;
 }
-/* .navlist{
-    list-style: none;
-    margin-left: 15px;
-    margin-right: 15px;
-    display: inline-block;
-    list-style-type: none;
-    
-    
-} */
-.navright{
+
+.navbar{
     display: flex;
-    justify-content: end; 
+    flex-direction: row;
+    align-items: center;
     
-}
-.navlistright{
-    list-style-type: none;
-}
-.left{
+    
+
 
 }
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+    
+
+    
+}
+
+
 
 /*------------------------landing----------------------------*/
 .sparkland{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    margin-top:30px;
+    /* margin-top:30px; */
 }
 .mainland{
     display: flex;
@@ -37,10 +39,10 @@
 }
 .sparkcontentleft{
     justify-content: center;
-    display: flex;
+    /* display: flex; */
     font-size: 30px;
-    margin-left: 20px;
-    margin-top: 68px;
+    /* margin-left: 20px;
+    margin-top: 68px; */
 }
 .left{
     font-family: ProductSans-Regular;
@@ -51,34 +53,43 @@
     border-left: 3px solid #3331EC;
     height: 75px;
     display: block;
-    margin-left:-200px;
-    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* margin-left:-200px;
+    margin-top: 70px; */
 }
 .sparklogo{
     display: block;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-family: ProductSans-Regular;
     color: #3331EC;
     font-size: 80px;
     font-weight: bold;
-    margin-left: -200px;
+    /* margin-left: -200px; */
 }
 .paracont{
     display: block;
     width: 400px;
-    margin-top: 0px;
-    text-align: center;
+    /* margin-top: 0px; */
+    
     font-family: ProductSans-Regular;
     font-size: 18px;
-    margin-left: 530px;
+    /* margin-left: 530px; */
 }
+
 .schedulemain{
-    display: block;
-    width: 1435px;
+    display: flex;
+    /* width: 1435px; */
     background-color: rgb(242, 246, 255);
-    overflow-x: hidden;
-    margin-top: 100px;
+    /* overflow-x: hidden;
+    margin-top: 100px; */
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     
 
 }
@@ -88,16 +99,16 @@
     color: #3331EC;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 580px;
-    padding-top: 10px;
-}
+    /* margin-left: 580px;
+    padding-top: 10px; */
+} 
 
 .line2{
     border-left: 3px solid #3331EC;
-    display: block;
+    /* display: block; */
     height: 50px;
-    margin-left: 700px;
-    margin-top: -40px;
+    /* margin-left: 700px;
+    margin-top: -40px; */
 }
 
 .contentsch{
@@ -109,14 +120,15 @@
 .flow{
     
     font-size: 20px;
-    margin-left: 710px;
-    margin-top: -65px;
+    /* margin-left: 710px;
+    margin-top: -65px; */
 }
 
 .container{ 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     height: fit-content;
     margin-bottom: 50px;  
 }
@@ -124,12 +136,12 @@
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-left: 110px;
-    margin-right: 60px;
+    /* margin-left: 110px;
+    margin-right: 60px; */
     padding: 10px;
-    cursor: pointer;
-    transition: all 0.7s ease ;
+    margin: 15px;
     border-radius: 5px;
+    font-family: ProductSans-Regular;
     
 }
 .p1{
@@ -137,202 +149,162 @@
     font-weight: bold;
     font-size: 22.36px;
     color: #3331EC;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .git{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
-    margin-left: 20px;
+    /* margin-right: 80px;
+    margin-left: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
-    border-radius: 5px;
-    
+    /* cursor: pointer; */
+    border-radius: 5px;   
 }
 .html{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
-    margin-left: 0px;
+    /* margin-right: 80px;
+    margin-left: 0px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
 }
 .basics1{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-left: 110px;
+    /* margin-left: 110px;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
 }
 .basics2{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;   
+    /* cursor: pointer;    */
     border-radius: 5px; 
 }
 .advanced{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer; 
+    /* cursor: pointer;  */
     border-radius: 5px;   
 }
 .gitadvanced{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-left: 110px;
+    /* margin-left: 110px;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
 }
 .bootstrap1{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;    
 }
 .bootstrap2{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;    
 }
 .speaker{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-left: 110px;
+    /* margin-left: 110px;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer; 
+    /* cursor: pointer;  */
     border-radius: 5px;   
 }
 .js1{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;    
 }
 .js2{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-right: 80px;
+    /* margin-right: 80px;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
 }
 .graphica{
     height: 240px;
     width: 268px;
     background-color: #ffffff;
-    margin-left: 28px;
-    margin-top: 20px;
+    /* margin-left: 28px;
+    margin-top: 20px; */
     padding: 10px;
+    margin: 15px;
     font-family: ProductSans-Regular;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
 }
-.inau:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.git:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.html:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.basics1:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.basics2:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.advanced:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.gitadvanced:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.bootstrap1:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.bootstrap2:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.speaker:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.js1:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.js2:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
-.graphica:hover{
-    padding: 15px;
-    transition-duration: 0.7s;
-}
+
 .speakercontainer{
     display: block;
     width: 1435px;
@@ -342,7 +314,7 @@
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-    z-index: 0;
+    /* z-index: 0; */
 }
 .speakercont{
         background-color: rgb(242, 246, 255);
